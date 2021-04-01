@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+
+    <title>Welcome! | aConverter by Arsh</title>
+
+    <meta name="description" content="Namaste. I am Arsh Saxena, an Indian, a student, a coder, a vlogger, and a video editor. Welcome to my website!">
+    <meta name="author" content="Arsh Saxena">
+    <meta name="keywords" content="Arsh Saxena, arsh.saxena02, GitHub, Coding, Indian, Student">
+
+    <link rel="stylesheet" href="/other/first-page/style.css">
+    <link rel="stylesheet" href="/other/globals/global-fonts.css">
+    <link rel="stylesheet" href="/other/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/other/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/other/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/other/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+    <link rel="icon" href="/resources/first-page/icons/ac-logo.png">
+    <link rel="apple-touch-icon" href="/resources/first-page/icons/ac-logo.png">
+</head>
+<body>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+        $("#nav").load("/other/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/other/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/other/globals/global-top-button/global-top-button.html");
+        });
+    </script>
+    <div class="container">
+        <span id="top-button"></span>
+        <nav class="nav" id="nav"> 
+        </nav>
+        <div class="main-head">
+            
+        </div>
+    </div>
+    <span class="footer-conatiner">
+        <footer>
+            <div class="footer" id="footer-part">
+                <div class="footer-text">
+                    <img src="/resources/first-page/icons/aconverter-logo.png" alt=""> &nbsp; 
+                    <span class="path">
+                        <span class="page-name">by Arsh Home</span>
+                    </span>
+                </div>
+            </div>
+        </footer>
+        <footer id="footer"></footer>
+    </span>
+</body>
+</html>

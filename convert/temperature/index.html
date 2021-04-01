@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+
+    <title>Temperature Converter | aConverter by Arsh</title>
+
+    <meta name="description" content="Convert temperature among multiple units.">
+    <meta name="author" content="Arsh Saxena">
+    
+    <link rel="stylesheet" href="/convert/globals/style.css">
+    <link rel="stylesheet" href="/other/globals/global-fonts.css">
+    <link rel="stylesheet" href="/other/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/other/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/other/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/other/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+    
+    <link rel="icon" href="/resources/first-page/icons/ac-logo.png">
+</head>
+<body>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+        $("#nav").load("/other/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/other/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/other/globals/global-top-button/global-top-button.html");
+        });
+    </script>
+    <div class="container">
+        <span id="top-button"></span>
+        <nav class="nav" id="nav"> 
+        </nav>
+        <div class="main-head">
+            <h1>Temperature Converter</h1>
+            <div class="archive">
+                <article class="article">
+                    <div class="unit">
+                        <label>Celsius</label>
+                        <br>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input id="inputCelsius" class="w3-input w3-border" type="number" min="-273.15" placeholder="Celsius" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">°C</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="unit">
+                        <label>Fahrenheit</label>
+                        <br>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input id="inputFahrenheit" class="w3-input w3-border" type="number" min="-459.66999999999996" placeholder="Fahrenheit" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">°F</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="unit">
+                        <label>Kelvin</label>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input id="inputKelvin" class="w3-input w3-border" type="number" min="0" placeholder="Kelvin" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">K</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <span class="footer-conatiner">
+        <footer>
+            <div class="footer" id="footer-part">
+                <div class="footer-text">
+                    <img src="/resources/first-page/icons/aconverter-logo.png" alt=""> &nbsp; 
+                    <span class="path">
+                        <span class="arrow"><i class="fa fa-angle-right"></i></span>
+                        <span class="page-name">Temperature Converter</span>
+                    </span>                  
+                </div>
+            </div>
+        </footer>
+        <footer id="footer"></footer>
+    </span>
+    <script src="main.js"></script>
+</body>
+</html>

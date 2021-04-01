@@ -1,0 +1,113 @@
+body{
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type = number] {
+  -moz-appearance: textfield;
+}
+.main-head{
+    max-width: 1000px;
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    margin: 20px auto 30px;
+}
+h1{
+    text-align: center;
+}
+.archive {
+    margin: 10px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(45%, 1fr));
+    grid-gap: 1em;
+}
+.article {
+    padding: 1em;
+    background: #1d1d1f;
+    border-radius: 10px;
+}
+label{
+    font-size: 25px;
+    text-align: left !important;
+}
+.input-unit-text{
+    display: flex;
+}
+.input{
+    width: 85%;
+    margin-right: 2.5px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    border-color: transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+.unit-text{
+    width: 15%;
+    padding: 10px 0px;
+    margin-left: 2.5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 513px) and (max-width: 1023px){
+    .main-head{
+        padding-top: 35px;
+    }
+}
+@media only screen and (max-width: 512px){
+    body{
+        overflow-x: hidden;
+        background-color: black;
+    }
+    .main-head{
+        margin: 0px auto 0px;
+        padding: 0px;
+        padding-top: 60px;
+        width: 95%;
+        overflow-x: hidden;
+    }
+    .archive {
+        margin: 10px 5px 20px;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(100%, 0));
+        grid-gap: 10px;
+    }
+    .article {
+        color: white;
+        padding: 20px 10px;
+        margin: 5px 0px;
+        background: #1d1d1f;
+        border-radius: 10px;
+    }
+    label{
+        font-size: 20px;
+        text-align: left !important;
+    }
+    input{
+        width: 100%;
+        box-sizing: border-box;
+        border-color: transparent;
+        border-radius: 5px;
+        margin-top: 5px;
+        padding: 5px;
+        font-size: 17px;
+    }
+    .unit-text{
+        color: white;
+        font-size: 17px;
+    }
+}
