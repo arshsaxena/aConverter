@@ -17,3 +17,9 @@ function temperatureConverter(source,valNum) {
         inputCelsius.value = ((valNum)-273.15);
     }
 }
+
+$(document).ready(function(){
+    $(".celsius").fadeIn(450);
+    $(".fahrenheit").fadeIn(650);
+    $(".kelvin").fadeIn(850);
+});

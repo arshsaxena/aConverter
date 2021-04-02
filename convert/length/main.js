@@ -65,3 +65,13 @@ function lengthConverter(source,valNum) {
         inputKilometers.value = (valNum / 0.62137);    
     }
 }
+
+$(document).ready(function(){
+    $(".kilometers").fadeIn(450);
+    $(".meters").fadeIn(650);
+    $(".centimeters").fadeIn(850);
+    $(".miles").fadeIn(1050);
+    $(".yards").fadeIn(1250);
+    $(".feet").fadeIn(1450);
+    $(".inches").fadeIn(1650);
+});

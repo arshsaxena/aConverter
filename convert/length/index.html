@@ -40,44 +40,33 @@
         </nav>
         <div class="main-head">
             <h1>Length Converter</h1>
-            <div class="archive">
-                <article class="article">
+            <div class="units-container">
+                <div class="unit-field-container kilometers" style="display: none;">
                     <div class="unit">
-                        <label>Feet</label>
+                        <label>Kilometer</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputFeet" type="number" placeholder="Feet" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input id="inputKilometers" type="number" placeholder="km" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
-                            <span class="unit-text">ft</span>
+                            <span class="unit-text">km</span>
                         </div>
                     </div>
-                </article>
-                <article class="article">
+                </div>
+                
+                <div class="unit-field-container meters" style="display: none;">
                     <div class="unit">
-                        <label>Meters</label>
+                        <label>Meter</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputMeters" type="number" placeholder="Meters" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input id="inputMeters" type="number" placeholder="m" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">m</span>
                         </div>
                     </div>
-                </article>
-                <article class="article">
-                    <div class="unit">
-                        <label>Inches</label>
-                        <br>
-                        <div class="input-unit-text">
-                            <span class="input">
-                                <input id="inputInches" type="number" placeholder="Inches" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
-                            </span>
-                            <span class="unit-text">in</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="article">
+                </div>
+                <div class="unit-field-container centimeters" style="display: none;">
                     <div class="unit">
                         <label>Centimeter</label>
                         <br>
@@ -88,43 +77,55 @@
                             <span class="unit-text">cm</span>
                         </div>
                     </div>
-                </article>
-                <article class="article">
+                </div>
+                <div class="unit-field-container miles" style="display: none;">
                     <div class="unit">
-                        <label>Yards</label>
+                        <label>Mile</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputYards" type="number" placeholder="Yards" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
-                            </span>
-                            <span class="unit-text">yd</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="article">
-                    <div class="unit">
-                        <label>Kilometers</label>
-                        <br>
-                        <div class="input-unit-text">
-                            <span class="input">
-                                <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
-                            </span>
-                            <span class="unit-text">km</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="article">
-                    <div class="unit">
-                        <label>Miles</label>
-                        <br>
-                        <div class="input-unit-text">
-                            <span class="input">
-                                <input id="inputMiles" type="number" placeholder="Miles" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input id="inputMiles" type="number" placeholder="mi" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">mi</span>
                         </div>
                     </div>
-                </article>
+                </div>
+                <div class="unit-field-container yards" style="display: none;">
+                    <div class="unit">
+                        <label>Yard</label>
+                        <br>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input id="inputYards" type="number" placeholder="yd" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">yd</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit-field-container feet" style="display: none;">
+                    <div class="unit">
+                        <label>Foot</label>
+                        <br>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input id="inputFeet" type="number" placeholder="ft" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">ft</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit-field-container inches" style="display: none;">
+                    <div class="unit">
+                        <label>Inch</label>
+                        <br>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input id="inputInches" type="number" placeholder="in" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">in</span>
+                        </div>
+                    </div>
+                </div>                
             </div>
         </div>
     </div>
@@ -143,5 +144,6 @@
         <footer id="footer"></footer>
     </span>
     <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>

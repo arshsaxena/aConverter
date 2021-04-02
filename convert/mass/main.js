@@ -6,7 +6,7 @@ function massConverter(source, valNum) {
     var inputGrams = document.getElementById("inputGrams");
     var inputStones = document.getElementById("inputStones");
     var inputTonnes = document.getElementById("inputTonnes");
-    var inputMiligrams = document.getElementById("inputMiligrams");
+    var inputMilligrams = document.getElementById("inputMilligrams");
 
     if (source == "inputPounds") {
         inputKilograms.value = (valNum / 2.2046);
@@ -14,7 +14,7 @@ function massConverter(source, valNum) {
         inputGrams.value = (valNum / 0.0022046);
         inputStones.value = (valNum * 0.071429);
         inputTonnes.value = (valNum / 2205);
-        inputMiligrams.value = (valNum * 453592);
+        inputMilligrams.value = (valNum * 453592);
     }
     if (source == "inputKilograms") {
         inputPounds.value = (valNum * 2.2046);
@@ -22,7 +22,7 @@ function massConverter(source, valNum) {
         inputGrams.value = (valNum * 1000);
         inputStones.value = (valNum * 0.1574);
         inputTonnes.value = (valNum / 1000);
-        inputMiligrams.value = (valNum * 1000000);
+        inputMilligrams.value = (valNum * 1000000);
     }
     if (source == "inputOunces") {
         inputPounds.value = (valNum * 0.062500);
@@ -30,7 +30,7 @@ function massConverter(source, valNum) {
         inputGrams.value = (valNum / 0.035274);
         inputStones.value = (valNum * 0.0044643);
         inputTonnes.value = (valNum / 35247);
-        inputMiligrams.value = (valNum * 28350);
+        inputMilligrams.value = (valNum * 28350);
     }
     if (source == "inputGrams") {
         inputPounds.value = (valNum * 0.0022046);
@@ -38,7 +38,7 @@ function massConverter(source, valNum) {
         inputOunces.value = (valNum * 0.035274);
         inputStones.value = (valNum * 0.00015747);
         inputTonnes.value = (valNum / 1000000);
-        inputMiligrams.value = (valNum * 1000);
+        inputMilligrams.value = (valNum * 1000);
     }
     if (source == "inputStones") {
         inputPounds.value = (valNum * 14);
@@ -46,7 +46,7 @@ function massConverter(source, valNum) {
         inputOunces.value = (valNum * 224);
         inputGrams.value = (valNum / 0.00015747);
         inputTonnes.value = (valNum / 15747);
-        inputMiligrams.value = (valNum * 6350000);
+        inputMilligrams.value = (valNum * 6350000);
     }
     if (source == "inputTonnes") {
         inputPounds.value = (valNum * 2205);
@@ -54,9 +54,9 @@ function massConverter(source, valNum) {
         inputOunces.value = (valNum * 35247);
         inputStones.value = (valNum * 157.473);
         inputGrams.value = (valNum * 1000000);
-        inputMiligrams.value = (valNum * 1000000000);
+        inputMilligrams.value = (valNum * 1000000000);
     }
-    if (source == "inputMiligrams") {
+    if (source == "inputMilligrams") {
         inputPounds.value = (valNum / 453592);
         inputKilograms.value = (valNum / 1000000);
         inputOunces.value = (valNum / 28350);
@@ -65,3 +65,13 @@ function massConverter(source, valNum) {
         inputTonnes.value = (valNum / 1000000000);
     }
 }
+
+$(document).ready(function(){
+    $(".tonne").fadeIn(450);
+    $(".kilogram").fadeIn(650);
+    $(".gram").fadeIn(850);
+    $(".milligram").fadeIn(1050);
+    $(".stone").fadeIn(1250);
+    $(".pound").fadeIn(1450);
+    $(".ounce").fadeIn(1650);
+});

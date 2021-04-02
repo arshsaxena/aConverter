@@ -26,3 +26,10 @@ function speedConverter(source,valNum) {
         inputKnots.value = (valNum * 1.944);
     }
 }
+
+$(document).ready(function(){
+    $(".miph").fadeIn(450);
+    $(".kmph").fadeIn(650);
+    $(".mps").fadeIn(850);
+    $(".knots").fadeIn(1050);
+});

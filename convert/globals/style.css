@@ -23,13 +23,13 @@ input[type = number] {
 h1{
     text-align: center;
 }
-.archive {
+.units-container {
     margin: 10px 0px 20px;
     display: grid;
     grid-template-columns: repeat(2, minmax(45%, 1fr));
     grid-gap: 1em;
 }
-.article {
+.unit-field-container {
     padding: 1em;
     background: #1d1d1f;
     border-radius: 10px;
@@ -80,13 +80,13 @@ input{
         width: 95%;
         overflow-x: hidden;
     }
-    .archive {
+    .units-container {
         margin: 10px 5px 20px;
         display: grid;
         grid-template-columns: repeat(1, minmax(100%, 0));
         grid-gap: 10px;
     }
-    .article {
+    .unit-field-container {
         color: white;
         padding: 20px 10px;
         margin: 5px 0px;

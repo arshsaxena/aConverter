@@ -40,91 +40,91 @@
         </nav>
         <div class="main-head">
             <h1>Mass Converter</h1>
-            <div class="archive">
-                <article class="article">
+            <div class="units-container">
+                <div class="unit-field-container tonne" style="display: none;">
                     <div class="unit">
-                        <label>Kilograms</label>
+                        <label>Tonne</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
-                            </span>
-                            <span class="unit-text">kg</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="article">
-                    <div class="unit">
-                        <label>Grams</label>
-                        <br>
-                        <div class="input-unit-text">
-                            <span class="input">
-                                <input id="inputGrams" type="number" placeholder="Grams" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
-                            </span>
-                            <span class="unit-text">g</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="article">
-                    <div class="unit">
-                        <label>Miligrams</label>
-                        <br>
-                        <div class="input-unit-text">
-                            <span class="input">
-                                <input id="inputMiligrams" type="number" placeholder="Grams" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
-                            </span>
-                            <span class="unit-text">mg</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="article">
-                    <div class="unit">
-                        <label>Tonnes</label>
-                        <br>
-                        <div class="input-unit-text">
-                            <span class="input">
-                                <input id="inputTonnes" type="number" placeholder="Tonnes" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
+                                <input id="inputTonnes" type="number" placeholder="t" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">t</span>
                         </div>
                     </div>
-                </article>
-                <article class="article">
+                </div>
+                <div class="unit-field-container kilogram" style="display: none;">
                     <div class="unit">
-                        <label>Pounds</label>
+                        <label>Kilogram</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputPounds" type="number" placeholder="Pounds" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
+                                <input id="inputKilograms" type="number" placeholder="kg" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
                             </span>
-                            <span class="unit-text">lb</span>
+                            <span class="unit-text">kg</span>
                         </div>
                     </div>
-                </article>
-                <article class="article">
+                </div>
+                <div class="unit-field-container gram" style="display: none;">
                     <div class="unit">
-                        <label>Ounces</label>
+                        <label>Gram</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputOunces" type="number" placeholder="Ounces" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
+                                <input id="inputGrams" type="number" placeholder="g" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
                             </span>
-                            <span class="unit-text">oz</span>
+                            <span class="unit-text">g</span>
                         </div>
                     </div>
-                </article>
-                <article class="article">
+                </div>
+                <div class="unit-field-container milligram" style="display: none;">
                     <div class="unit">
-                        <label>Stones</label>
+                        <label>Milligram</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputStones" type="number" placeholder="Stones" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
+                                <input id="inputMilligrams" type="number" placeholder="mg" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">mg</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit-field-container stone" style="display: none;">
+                    <div class="unit">
+                        <label>Stone</label>
+                        <br>
+                        <div class="input-unit-text strone">
+                            <span class="input">
+                                <input id="inputStones" type="number" placeholder="st" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">st</span>
                         </div>
                     </div>
-                </article>
+                </div>
+                <div class="unit-field-container pound" style="display: none;">
+                    <div class="unit">
+                        <label>Pound</label>
+                        <br>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input id="inputPounds" type="number" placeholder="lb" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">lb</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit-field-container ounce" style="display: none;">
+                    <div class="unit">
+                        <label>Ounce</label>
+                        <br>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input id="inputOunces" type="number" placeholder="oz" oninput="massConverter(this.id,this.value)" onchange="massConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">oz</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

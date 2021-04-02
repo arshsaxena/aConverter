@@ -14,142 +14,50 @@ a{
     text-decoration: none;
 }
 .main-head{
-    margin-top: 50px;
-    max-width: 1100px;
+    max-width: 980px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+    text-align: center;
 }
-.columns{
-    display: flex;
+.heading{
+    font-size: 35px;
 }
-.main-col{
-    width: 810px;
-    padding: 5px;
-    margin: 15px;
+.heading h1{
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
-.main-col .heading{
-    border-bottom: solid;
-    border-color: #1d1d1f;
-    border-width: 1px;
-    font-size: 20px;
-    padding-bottom: 5px;
+.category-container {
+    margin: 10px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    grid-gap: 1em;
 }
-.main-col .heading h1{
-    margin: 0;
-}
-.blog-links{
-    padding-top: 25px;
-}
-.blog-teaser-container{
-    display: none;
-    padding-bottom: 10px;
-    padding-top: 15px;
-    border-bottom: solid;
-    border-color: #1d1d1f;
-    border-width: 3px;
-}
-.blog-teaser{
-    padding-bottom: 10px;
-    padding-top: 15px;
-    display: flex;
-}
-.blog-teaser-container:first-of-type{
-    padding-bottom: 10px;
-    padding-top: 0px;
-    border-bottom: solid;
-    border-color: #1d1d1f;
-    border-width: 3px !important;
-}
-.blog-teaser-container:last-of-type{
-    padding-bottom: 0px;
-    padding-top: 15px;
-}
-.img-div img{
-    width: 300px;
+.category {
+    padding: 25px;
+    background: #1d1d1f;
     border-radius: 10px;
 }
-.text-div{
-    width: 100%;
-    padding-left: 15px;
+a .category{
+    color: rgb(172, 172, 172);
+    font-size: 23px;
 }
-.text-div a h2{
-    color: white;
-    font-weight: bold;
-    letter-spacing: 0px;
-}
-.text-div a{
-    color: #2997ff;
-}
-.text-div a.h2{
-    margin: 0px;
-    font-size: 24px;
-    font-weight: 700;
-    color: white;
-    letter-spacing: 0;
-}
-.p-for-pc{
-    font-size: 15px;
-    margin-bottom: 3px;
-    color: #919191;
-}
-.p-for-mobile{
-    margin-bottom: 3px;
-    display: none;
-}
-.p-for-pc a:hover{
-    text-decoration: underline !important;
-}
-.info{
-    text-align: right;
-    color: #707070;
-    font-size: 14px;
-}
-.seperator{
-    color: lawngreen;
-}
-.blog-thumbnail{
-    pointer-events: all;
-}
-#loadMore{
-    width: 175px;
-    font-size: 22px;
-    background-color: rgba(11,130,252,255);
-    color: #fff;
-    display: block;
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 15px;
-    border: 1px solid transparent;
+a .category:hover{
+    color: rgb(255, 255, 255);
 }
 
-/* Mobiles and some tabs */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (min-width: 513px) and (max-width: 1023px){
     .main-head{
-        max-width: 1000px;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 5px;
+        padding-top: 45px;
+        width: 96%;
     }
-    .main-col{
-        width: 810px;
-        padding: 5px;
-        margin: 15px;
-        margin-left: 0;
+    .heading{
+        font-size: 20px;
+        padding-top: 0px;
     }
 }
-@media only screen and (max-device-width: 1024px) and (orientation: landscape){
-    .img-div img{
-        width: 150px;
-    }
-    #side-col-container{
-        display: none;
-    }
-}
-@media only screen and (max-device-width: 813px){
+@media only screen and (max-device-width: 512px){
     html{
         background-color: #1d1d1f;
         margin: 0px;
@@ -169,52 +77,23 @@ a{
         padding-top: 30px;
         padding-bottom: 20px;
     }
-    .columns{
-        display: inline !important;
+    .heading{
+        font-size: 20px;
+        padding-top: 22px;
     }
-    .main-col{
-        width: 100%;
-        padding: 0;
-        margin-bottom: 10px !important;
-        margin: 0;
+    .category-container {
+        margin: 10px 0px 20px;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(45%, 1fr));
+        grid-gap: 1em;
     }
-    .main-col .heading{
-        font-size: 15px;
-    }
-    .img-div img{
-        width: 130px;
-        border-radius: 8px;
-    }
-    .text-div{
-        padding-left: 10px;
-    }
-    .text-div a.h2{
-        font-size: 17px;
-        min-height: 0px !important;
-        padding-bottom: 5px;
-    }
-    .p-for-pc{
-        display: none;
-    }
-    .p-for-mobile{
-        display: inline;
-        margin: 0;
-        font-size: 13px;
-        color: #919191;
-    }
-    .info{
-        padding-top: 3px;
-        width: 100%;
-    }
-    .author{
-        font-size: 12px;
-    }
-    .updated{
-        font-size: 12px;
-    }
-    #loadMore{
+    .category {
+        padding: 15px 10px;
+        background: #1d1d1f;
         border-radius: 10px;
-        width: fit-content;
-        font-size: 17px;
+    }
+    a .category{
+        color: rgb(255, 255, 255);
+        font-size: 21px;
     }
 }
