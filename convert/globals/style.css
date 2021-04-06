@@ -23,6 +23,24 @@ input[type = number] {
 h1{
     text-align: center;
 }
+.checkbox-container{
+    margin: 0px 0px;
+    padding: 10px;
+    background-color: #1d1d1f;
+    border-radius: 10px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+input[type = checkbox]{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.checkbox-label{
+    font-size: 21px;
+    padding: 5px 0px;
+}
 .units-container {
     margin: 10px 0px 20px;
     display: grid;
@@ -34,7 +52,7 @@ h1{
     background: #1d1d1f;
     border-radius: 10px;
 }
-label{
+.unit-label{
     font-size: 25px;
     text-align: left !important;
 }
@@ -45,7 +63,7 @@ label{
     width: 85%;
     margin-right: 2.5px;
 }
-input{
+.value-input{
     width: 100%;
     box-sizing: border-box;
     border-color: transparent;
@@ -67,6 +85,9 @@ input{
     .main-head{
         padding-top: 35px;
     }
+    .checkbox-container{
+        margin: 0px 0px;
+    }
 }
 @media only screen and (max-width: 512px){
     body{
@@ -79,6 +100,9 @@ input{
         padding-top: 60px;
         width: 95%;
         overflow-x: hidden;
+    }
+    .checkbox-container{
+        margin: 0px 5px;
     }
     .units-container {
         margin: 10px 5px 20px;
@@ -97,7 +121,7 @@ input{
         font-size: 20px;
         text-align: left !important;
     }
-    input{
+    .value-input{
         width: 100%;
         box-sizing: border-box;
         border-color: transparent;

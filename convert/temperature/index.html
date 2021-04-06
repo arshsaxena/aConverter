@@ -40,37 +40,51 @@
         </nav>
         <div class="main-head">
             <h1>Temperature Converter</h1>
+            <div class="checkbox-container">
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="celsiusCheck" checked="checked">
+                    <label for="celsiusCheck" class="checkbox-label">Celsius</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="fahrenheitCheck" checked="checked">
+                    <label for="fahrenheitCheck" class="checkbox-label">Fahrenheit</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="kelvinCheck" checked="checked">
+                    <label for="kelvinCheck" class="checkbox-label">Kelvin</label>
+                </div>
+            </div>
             <div class="units-container">
-                <div class="unit-field-container celsius" style="display: none;">
+                <div class="unit-field-container celsius" id="celsius" style="display: none;">
                     <div class="unit">
-                        <label>Celsius</label>
+                        <label class="unit-label">Celsius</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputCelsius" class="w3-input w3-border" type="number" min="-273.15" placeholder="°C" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                                <input class="value-input" id="inputCelsius" class="w3-input w3-border" type="number" min="-273.15" placeholder="°C" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">°C</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container fahrenheit" style="display: none;">
+                <div class="unit-field-container fahrenheit" id="fahrenheit" style="display: none;">
                     <div class="unit">
-                        <label>Fahrenheit</label>
+                        <label class="unit-label">Fahrenheit</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputFahrenheit" class="w3-input w3-border" type="number" min="-459.66999999999996" placeholder="°F" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                                <input class="value-input" id="inputFahrenheit" class="w3-input w3-border" type="number" min="-459.66999999999996" placeholder="°F" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">°F</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container kelvin" style="display: none;">
+                <div class="unit-field-container kelvin" id="kelvin" style="display: none;">
                     <div class="unit">
-                        <label>Kelvin</label>
+                        <label class="unit-label">Kelvin</label>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputKelvin" class="w3-input w3-border" type="number" min="0" placeholder="K" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                                <input class="value-input" id="inputKelvin" class="w3-input w3-border" type="number" min="0" placeholder="K" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">K</span>
                         </div>
@@ -93,6 +107,8 @@
         </footer>
         <footer id="footer"></footer>
     </span>
+    <script src="checkbox.js"></script>
     <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>

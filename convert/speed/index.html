@@ -40,50 +40,68 @@
         </nav>
         <div class="main-head">
             <h1>Speed Converter</h1>
+            <div class="checkbox-container">
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="miphCheck" checked="checked">
+                    <label for="miphCheck" class="checkbox-label">Miles per hour</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="kmphCheck" checked="checked">
+                    <label for="kmphCheck" class="checkbox-label">Kilometer per hour</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="mpsCheck" checked="checked">
+                    <label for="mpsCheck" class="checkbox-label">Meter per second</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="knotsCheck" checked="checked">
+                    <label for="knotsCheck" class="checkbox-label">Knots</label>
+                </div>
+            </div>
             <div class="units-container">
-                <div class="unit-field-container miph" style="display: none;">
+                <div class="unit-field-container miph" id="miph" style="display: none;">
                     <div class="unit">
-                        <label>Miles per hour</label>
+                        <label class="unit-label">Miles per hour</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputMPH" class="w3-input w3-border" type="number" placeholder="MPH" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+                                <input class="value-input" id="inputMPH" class="w3-input w3-border" type="number" placeholder="MPH" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">mi/h</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container kmph" style="display: none;">
+                <div class="unit-field-container kmph" id="kmph" style="display: none;">
                     <div class="unit">
-                        <label>Kilometer per hour</label>
+                        <label class="unit-label">Kilometer per hour</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputKPH" type="number" placeholder="KPH" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+                                <input class="value-input" id="inputKPH" type="number" placeholder="KPH" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">km/h</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container mps" style="display: none;">
+                <div class="unit-field-container mps" id="mps" style="display: none;">
                     <div class="unit">
-                        <label>Meter per second</label>
+                        <label class="unit-label">Meter per second</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputMPS" class="w3-input w3-border" type="number" placeholder="MPS" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+                                <input class="value-input" id="inputMPS" class="w3-input w3-border" type="number" placeholder="MPS" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">m/s</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container knots" style="display: none;">
+                <div class="unit-field-container knots" id="knots" style="display: none;">
                     <div class="unit">
-                        <label>Knots</label>
+                        <label class="unit-label">Knots</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputKnots" class="w3-input w3-border" type="number" placeholder="Knots" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
+                                <input class="value-input" id="inputKnots" class="w3-input w3-border" type="number" placeholder="Knots" oninput="speedConverter(this.id,this.value)" onchange="speedConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">kn</span>
                         </div>
@@ -106,6 +124,8 @@
         </footer>
         <footer id="footer"></footer>
     </span>
+    <script src="checkbox.js"></script>
     <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 </html>

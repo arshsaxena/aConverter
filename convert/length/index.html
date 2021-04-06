@@ -40,134 +40,180 @@
         </nav>
         <div class="main-head">
             <h1>Length Converter</h1>
+            <div class="checkbox-container">
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="kmCheck" checked="checked">
+                    <label for="kmCheck" class="checkbox-label">Kilometer</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="mCheck" checked="checked">
+                    <label for="mCheck" class="checkbox-label">Meter</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="cmCheck" checked="checked">
+                    <label for="cmCheck" class="checkbox-label">Centimeter</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="mmCheck" checked="checked">
+                    <label for="mmCheck" class="checkbox-label">Millimeter</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="μmCheck" checked="checked">
+                    <label for="μmCheck" class="checkbox-label">Micrometer</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="nmCheck" checked="checked">
+                    <label for="nmCheck" class="checkbox-label">Nanometer</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="miCheck" checked="checked">
+                    <label for="miCheck" class="checkbox-label">Mile</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="ydCheck" checked="checked">
+                    <label for="ydCheck" class="checkbox-label">Yard</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="ftCheck" checked="checked">
+                    <label for="ftCheck" class="checkbox-label">Foot</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="inCheck" checked="checked">
+                    <label for="inCheck" class="checkbox-label">Inch</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="nmiCheck" checked="checked">
+                    <label for="nmiCheck" class="checkbox-label">Nautical Mile</label>
+                </div>
+            </div>
             <div class="units-container">
-                <div class="unit-field-container kilometers" style="display: none;">
+                <div class="unit-field-container kilometers" id="kilometers" style="display: none;">
                     <div class="unit">
-                        <label>Kilometer</label>
+                        <label class="unit-label">Kilometer</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputKilometers" type="number" placeholder="km" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputKilometers" type="number" placeholder="km" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">km</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container meters" style="display: none;">
+                <div class="unit-field-container meters" id="meters" style="display: none;">
                     <div class="unit">
-                        <label>Meter</label>
+                        <label class="unit-label">Meter</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputMeters" type="number" placeholder="m" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputMeters" type="number" placeholder="m" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">m</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container centimeters" style="display: none;">
+                <div class="unit-field-container centimeters" id="centimeters" style="display: none;">
                     <div class="unit">
-                        <label>Centimeter</label>
+                        <label class="unit-label">Centimeter</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputCentimeters" type="number" placeholder="cm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputCentimeters" type="number" placeholder="cm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">cm</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container millimeters" style="display: none;">
+                <div class="unit-field-container millimeters" id="millimeters" style="display: none;">
                     <div class="unit">
-                        <label>Millimeter</label>
+                        <label class="unit-label">Millimeter</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputMillimeters" type="number" placeholder="mm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputMillimeters" type="number" placeholder="mm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">mm</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container micrometers" style="display: none;">
+                <div class="unit-field-container micrometers" id="micrometers" style="display: none;">
                     <div class="unit">
-                        <label>Micrometer</label>
+                        <label class="unit-label">Micrometer</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputMicrometers" type="number" placeholder="μm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputMicrometers" type="number" placeholder="μm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">μm</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container nanometers" style="display: none;">
+                <div class="unit-field-container nanometers" id="nanometers" style="display: none;">
                     <div class="unit">
-                        <label>Nanometer</label>
+                        <label class="unit-label">Nanometer</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputNanometers" type="number" placeholder="nm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputNanometers" type="number" placeholder="nm" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">nm</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container miles" style="display: none;">
+                <div class="unit-field-container miles" id="miles" style="display: none;">
                     <div class="unit">
-                        <label>Mile</label>
+                        <label class="unit-label">Mile</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputMiles" type="number" placeholder="mi" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputMiles" type="number" placeholder="mi" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">mi</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container yards" style="display: none;">
+                <div class="unit-field-container yards" id="yards" style="display: none;">
                     <div class="unit">
-                        <label>Yard</label>
+                        <label class="unit-label">Yard</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputYards" type="number" placeholder="yd" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputYards" type="number" placeholder="yd" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">yd</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container feet" style="display: none;">
+                <div class="unit-field-container feet" id="feet" style="display: none;">
                     <div class="unit">
-                        <label>Foot</label>
+                        <label class="unit-label">Foot</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputFeet" type="number" placeholder="ft" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputFeet" type="number" placeholder="ft" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">ft</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container inches" style="display: none;">
+                <div class="unit-field-container inches" id="inches" style="display: none;">
                     <div class="unit">
-                        <label>Inch</label>
+                        <label class="unit-label">Inch</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputInches" type="number" placeholder="in" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputInches" type="number" placeholder="in" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">in</span>
                         </div>
                     </div>
                 </div>
-                <div class="unit-field-container nauticalmiles" style="display: none;">
+                <div class="unit-field-container nauticalmiles" id="nauticalmiles" style="display: none;">
                     <div class="unit">
-                        <label>Nautical Miles</label>
+                        <label class="unit-label">Nautical Mile</label>
                         <br>
                         <div class="input-unit-text">
                             <span class="input">
-                                <input id="inputNauticalMiles" type="number" placeholder="nmi" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
+                                <input class="value-input" id="inputNauticalMiles" type="number" placeholder="nmi" oninput="lengthConverter(this.id,this.value)" onchange="lengthConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">nmi</span>
                         </div>
@@ -190,6 +236,7 @@
         </footer>
         <footer id="footer"></footer>
     </span>
+    <script src="checkbox.js"></script>
     <script src="main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
