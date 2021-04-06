@@ -22,6 +22,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum * 1093.6);
         inputFeet.value = (valNum * 3280.8);
         inputInches.value = (valNum * 39370);
+        inputNauticalMiles.value = (valNum / 1.852)
     }
     if (source == "inputMeters") {
         inputKilometers.value = (valNum / 1000);
@@ -34,6 +35,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum * 1.0936);
         inputFeet.value = (valNum * 3.2808);
         inputInches.value = (valNum * 39.370);
+        inputNauticalMiles.value = (valNum / 1852)
     }
     if (source == "inputCentimeters") {
         inputKilometers.value = (valNum / 100000);
@@ -46,6 +48,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum * 0.010936);    
         inputFeet.value = (valNum * 0.032808);
         inputInches.value = (valNum * 0.39370);
+        inputNauticalMiles.value = (valNum / 185200)
     }
     if (source == "inputMillimeters") {
         inputKilometers.value = (valNum / 1000000);
@@ -58,6 +61,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum / 914);    
         inputFeet.value = (valNum / 304.8);
         inputInches.value = (valNum / 25.4);
+        inputNauticalMiles.value = (valNum / 1852000)
     }
     if (source == "inputMicrometers") {
         inputKilometers.value = (valNum / 1000000000);
@@ -70,6 +74,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum / 914400);    
         inputFeet.value = (valNum * 0.0000032808);
         inputInches.value = (valNum / 25400);
+        inputNauticalMiles.value = (valNum / 1852000000)
     }
     if (source == "inputNanometers") {
         inputKilometers.value = (valNum * 0.000000000001);
@@ -82,6 +87,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum * 0.0000000010936);    
         inputFeet.value = (valNum * 0.0000000032808);
         inputInches.value = (valNum * 0.0000000393696);
+        inputNauticalMiles.value = (valNum / 1852000000000)
     }
     if (source == "inputMiles") {
         inputKilometers.value = (valNum / 0.62137);    
@@ -94,6 +100,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum * 1760);
         inputFeet.value = (valNum * 5280);
         inputInches.value = (valNum * 63360);
+        inputNauticalMiles.value = (valNum / 1.15078)
     }
     if (source == "inputYards") {
         inputKilometers.value = (valNum / 1093.6);
@@ -106,6 +113,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum /1);
         inputFeet.value = (valNum * 3);
         inputInches.value = (valNum * 36);
+        inputNauticalMiles.value = (valNum / 2025.37)
     }
     if (source == "inputFeet") {
         inputKilometers.value = (valNum / 3280.8);    
@@ -118,6 +126,7 @@ function lengthConverter(source,valNum) {
         inputYards.value = (valNum * 0.33333);
         inputFeet.value = (valNum / 1);
         inputInches.value = (valNum * 12);
+        inputNauticalMiles.value = (valNum / 6076.12)
     }
     if (source == "inputInches") {
         inputKilometers.value = (valNum / 39370);
@@ -128,8 +137,22 @@ function lengthConverter(source,valNum) {
         inputNanometers.value = (valNum * 25400000);
         inputMiles.value = (valNum * 0.000015783);
         inputYards.value = (valNum * 0.027778);    
-        inputFeet.value = (valNum * 0.083333);
+        inputFeet.value = (valNum / 12);
         inputInches.value = (valNum / 1);
+        inputNauticalMiles.value = (valNum / 72193.4)
+    }
+    if (source == "inputNauticalMiles") {
+        inputKilometers.value = (valNum * 1.852);
+        inputMeters.value = (valNum * 1852);
+        inputCentimeters.value = (valNum * 185200);
+        inputMillimeters.value = (valNum * 1852000);
+        inputMicrometers.value = (valNum * 1852000000);
+        inputNanometers.value = (valNum * 1852000000000);
+        inputMiles.value = (valNum * 1.15078);
+        inputYards.value = (valNum * 2025.37);    
+        inputFeet.value = (valNum * 6076.12);
+        inputInches.value = (valNum * 72193.4 );
+        inputNauticalMiles.value = (valNum * 1)
     }
 }
 
@@ -144,4 +167,5 @@ $(document).ready(function(){
     $(".yards").fadeIn(1850);
     $(".feet").fadeIn(2050);
     $(".inches").fadeIn(2250);
+    $(".nauticalmiles").fadeIn(250);
 });
