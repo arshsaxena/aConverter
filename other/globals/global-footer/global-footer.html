@@ -17,55 +17,92 @@
         <div class="footer">
             <div class="footer-nav">
                 <div class="footer-nav-links">
-                    <div class="footer-nav-col">
-                        <span class="footer-col-heads">Discover</span>
-                        <br>
-                        <a href="/category/news/">Length</a>
-                        <br>
-                        <a href="/category/howto/">Mass</a>
-                        <br>
-                        <a href="/category/mobile/">Temperature</a>
-                        <br>
-                        <a href="/category/pc/">Speed</a>
-                        <br>
-                        <!-- <a href="/category/archives/">Archives</a> -->
-                        <!-- <br> -->
-                        <a href="/pages/sitemap/">Site Map</a>
+                    <div class="discover">
+                        <div class="footer-checkbox">
+                            <label for="discoverCheck" class="checkbox-label">
+                                <div class="label-div">
+                                    Discover
+                                </div>
+                            </label>
+                            <div class="check-div">
+                                <input type="checkbox" id="discoverCheck">
+                            </div>
+                        </div>
+                        <div class="footer-nav-col" id="discover">
+                            <span class="footer-col-heads">Discover<br></span>
+                            <ul>
+                                <li><a href="/convert/length/">Length</a></li>
+                                <li><a href="/convert/mass/">Mass</a></li>
+                                <li><a href="/convert/temperature/">Temperature</a></li>
+                                <li><a href="/convert/speed/">Speed</a></li>
+                                <li><a href="/pages/sitemap/">Site Map</a></li>                              
+                            </ul>
+                        </div>
                     </div>
-                    <div class="footer-nav-col">
-                        <span class="footer-col-heads">Connect</span>
-                        <br>
-                        <a href="/pages/contact/">Form</a>
-                        <br>
-                        <a href="https://instagram.com/arsh.saxena02" target="blank">Instagram</a>
-                        <br>
-                        <a href="https://www.linkedin.com/in/arshsaxena/" target="blank">LinkedIn</a>
-                        <br>
-                        <a href="https://t.me/arshsaxena" target="blank">Telegram</a>              
-                        <br>
-                        <a href="https://www.twitter.com/arshsaxena02" target="blank">Twitter</a>
+                    <div class="connect">
+                        <div class="footer-checkbox">
+                            <label for="connectCheck" class="checkbox-label">
+                                <div class="label-div">
+                                    Connect
+                                </div>
+                            </label>
+                            <div class="check-div">
+                                <input type="checkbox" id="connectCheck">
+                            </div>
+                        </div>
+                        <div class="footer-nav-col" id="connect">
+                            <span class="footer-col-heads">Connect<br></span>
+                            <ul>
+                                <li><a href="/pages/contact/">Form</a></li>
+                                <li><a href="https://instagram.com/arsh.saxena02" target="_blank">Instagram</a></li>
+                                <li><a href="https://www.linkedin.com/in/arshsaxena/" target="_blank">LinkedIn</a></li>
+                                <li><a href="https://t.me/arshsaxena" target="_blank">Telegram</a>      </li>
+                                <li><a href="https://www.twitter.com/arshsaxena02" target="_blank">Twitter</a></li>                              
+                            </ul>                            
+                        </div>
                     </div>
-                    <div class="footer-nav-col">
-                        <span class="footer-col-heads">Social</span>
-                        <br>
-                        <a href="https://facebook.com/arsh.saxena02" target="blank">Facebook</a>
-                        <br>
-                        <a href="https://gaana.com/playlist/arshsaxena-aaahx-favorite" target="blank">Gaana </a>
-                        <br>
-                        <a href="https://github.com/arshsaxena" target="blank">GitHub</a>
-                        <br>
-                        <a href="https://www.reddit.com/u/arshsaxena" target="blank">Reddit</a>
-                        <br>
-                        <a href="https://www.youtube.com/channel/UC8QAtZHZy9DApConhuO5n-A" target="blank">YouTube</a>
+                    <div class="social">
+                        <div class="footer-checkbox">
+                            <label for="socialCheck" class="checkbox-label">
+                                <div class="label-div">
+                                    Social
+                                </div>
+                            </label>
+                            <div class="check-div">
+                                <input type="checkbox" id="socialCheck">
+                            </div>
+                        </div>
+                        <div class="footer-nav-col" id="social">
+                            <span class="footer-col-heads">Social<br></span>
+                            <ul>
+                                <li><a href="https://facebook.com/arsh.saxena02" target="_blank">Facebook</a></li>
+                                <li><a href="https://gaana.com/playlist/arshsaxena-aaahx-favorite" target="_blank">Gaana </a></li>
+                                <li><a href="https://github.com/arshsaxena" target="_blank">GitHub</a></li>
+                                <li><a href="https://www.reddit.com/u/arshsaxena" target="_blank">Reddit</a></li>
+                                <li><a href="https://www.youtube.com/channel/UC8QAtZHZy9DApConhuO5n-A" target="_blank">YouTube</a></li>                              
+                            </ul>
+                        </div>
                     </div>
-                    <div class="footer-nav-col">
-                        <span class="footer-col-heads">Policy</span>
-                        <br>
-                        <a href="/pages/terms-of-use/">Terms of Use</a>
-                        <br>
-                        <a href="/pages/privacy/">Privacy</a>
+                    <div class="policy">
+                        <div class="footer-checkbox">
+                            <label for="policyCheck" class="checkbox-label">
+                                <div class="label-div">
+                                    Policy
+                                </div>
+                            </label>
+                            <div class="check-div">
+                                <input type="checkbox" id="policyCheck">
+                            </div>
+                        </div>
+                        <div class="footer-nav-col" id="policy">
+                            <span class="footer-col-heads">Policy<br></span>
+                            <ul>
+                                <li><a href="/pages/terms-of-use/">Terms of Use</a></li>
+                                <li><a href="/pages/privacy/">Privacy</a></li>                            
+                            </ul>                           
+                        </div>
                     </div>
-                </div>  
+                </div>
             </div>
             <br>
             <div class="footer-last-text">
@@ -114,6 +151,39 @@
             } 
 
             showTime(); 
+    </script>
+    <script>
+        $('#discoverCheck').change(function(){
+            if (this.checked) {
+                $('#discover').fadeIn(250);
+            } else {
+                $('#discover').fadeOut(250);
+            }                   
+        });
+
+        $('#connectCheck').change(function(){
+            if (this.checked) {
+                $('#connect').fadeIn(250);
+            } else {
+                $('#connect').fadeOut(250);
+            }                   
+        });
+
+        $('#socialCheck').change(function(){
+            if (this.checked) {
+                $('#social').fadeIn(250);
+            } else {
+                $('#social').fadeOut(250);
+            }                   
+        });
+
+        $('#policyCheck').change(function(){
+            if (this.checked) {
+                $('#policy').fadeIn(250);
+            } else {
+                $('#policy').fadeOut(250);
+            }                   
+        });
     </script>
 </body>
 </html>
