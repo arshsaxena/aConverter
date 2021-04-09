@@ -13,6 +13,7 @@ footer {
     padding-top: 10px;
     background-color: #1d1d1f;
     color: rgb(81, 81, 84);
+    font-family: font-regular;
     height: 100%;
 }
 #footer-part{
@@ -37,13 +38,6 @@ footer a{
     line-height: 30px;
     font-size: 17px;
     color: rgb(161, 161, 166);
-}
-.footer-text .path a{
-    color: rgb(161, 161, 166);
-}
-.footer-text .path a:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: underline
 }
 .footer-text .path .arrow{
     padding: 10px;
@@ -78,19 +72,21 @@ footer .footer .footer-last-text a:hover{
     text-decoration: underline;
 }
 .border1{
-    padding-bottom: 5px;
+    padding-bottom: 7.5px;
     border-bottom: solid;
     border-color: rgb(81, 81, 84);
     border-width: 1px;
     color: rgb(110, 110, 115);
+    font-size: 14.4199px;
 }
 .border2{
-    padding-top: 5px;
+    padding-top: 7.5px;
     display: flex;
+    font-size: 14.4199px;
 }
 .line1{
-    text-align: justify;
-    width: 33.33%;
+    text-align: left;
+    width: 42.33%;
     color: rgb(110, 110, 115);
 }
 .line1 a{
@@ -98,12 +94,12 @@ footer .footer .footer-last-text a:hover{
 }
 .line2{
     text-align: center;
-    width: 33.33%;
+    width: 20.33%;
     color: rgb(110, 110, 115);
 }
 .line3{
     text-align: right;
-    width: 33.33%;
+    width: 37.33%;
     color: rgb(110, 110, 115);
 }
 .in{
@@ -128,6 +124,9 @@ footer .footer .footer-last-text a:hover{
         width: 100%;
         background-color: #1d1d1f;
     }
+    footer{
+        padding-top: 5px;
+    }
     .footer {
         margin: 0px;
         width: 90%;
@@ -136,6 +135,7 @@ footer .footer .footer-last-text a:hover{
         padding-right: 16px;
         background-color: #1d1d1f;
         color: rgb(161, 161, 166);
+        font-family: font-regular !important;
         font-size: 13px;
     }
     .footer-text img{
@@ -180,9 +180,11 @@ footer .footer .footer-last-text a:hover{
     }
     .border1{
         border-bottom: none;
+        font-size: 12px;
     }
     .border2{
         display: inline;
+        font-size: 12px;
     }
     .line1{
         color: rgb(110, 110, 115);
