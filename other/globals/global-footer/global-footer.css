@@ -144,9 +144,8 @@ footer .footer .footer-last-text a:hover{
         padding-top: 5px;
     }
     .footer {
-        /* margin: 0px; */
         width: 92%;
-        padding-bottom: 5px;
+        padding-bottom: 0;
         padding-left: 0px;
         padding-right: 0px;
         background-color: #1d1d1f;
