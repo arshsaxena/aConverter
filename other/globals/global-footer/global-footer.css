@@ -21,6 +21,7 @@ footer {
 }
 footer a{
     text-decoration: none;
+    color: rgb(161, 161, 166);
 }
 .footer{
     max-width: 980px;

@@ -52,6 +52,8 @@ a .category:hover{
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
+    display: inline-block;
+    margin: 0 10px;
 }
 .button-div{
     background-color: #1d1d1f;
@@ -151,13 +153,18 @@ a .category:hover{
         font-size: 21px;
     }
     .app-button-container{
+        display: block;
         width: 100%;
+        margin: 0;
     }
     .button-div{
         background-color: #1d1d1f;
         border-radius: 10px;
         padding: 10px;
         display: flex;
+    }
+    .button-div:last-of-type{
+        margin-top: 15px;
     }
     .button-img-div img{
         width: 90px;
