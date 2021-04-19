@@ -1,0 +1,94 @@
+Date : 2021-04-11 14:45:14
+Directory : c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter
+Total : 43 files,  4352 codes, 12 comments, 116 blanks, all 4480 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |         14 |      2,077 |          8 |         17 |      2,102 |
+| HTML       |         14 |      1,665 |          1 |         57 |      1,723 |
+| JavaScript |          9 |        482 |          0 |         29 |        511 |
+| XML        |          5 |        119 |          3 |          5 |        127 |
+| Markdown   |          1 |          9 |          0 |          8 |         17 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                |         43 |      4,352 |         12 |        116 |      4,480 |
+| convert                                                                                                                          |         13 |      1,262 |          0 |         46 |      1,308 |
+| convert\globals                                                                                                                  |          1 |        136 |          0 |          1 |        137 |
+| convert\length                                                                                                                   |          3 |        485 |          0 |         16 |        501 |
+| convert\mass                                                                                                                     |          3 |        299 |          0 |         12 |        311 |
+| convert\speed                                                                                                                    |          3 |        188 |          0 |          9 |        197 |
+| convert\temperature                                                                                                              |          3 |        154 |          0 |          8 |        162 |
+| other                                                                                                                            |         11 |      1,000 |          2 |         27 |      1,029 |
+| other\first-page                                                                                                                 |          2 |        105 |          0 |          1 |        106 |
+| other\globals                                                                                                                    |          9 |        895 |          2 |         26 |        923 |
+| other\globals\global-footer                                                                                                      |          2 |        434 |          0 |         11 |        445 |
+| other\globals\global-navbar                                                                                                      |          2 |        283 |          2 |          7 |        292 |
+| other\globals\global-top-button                                                                                                  |          2 |         69 |          0 |          5 |         74 |
+| pages                                                                                                                            |         11 |      1,803 |          7 |         23 |      1,833 |
+| pages\404                                                                                                                        |          1 |        101 |          0 |          0 |        101 |
+| pages\app                                                                                                                        |          2 |        653 |          3 |          4 |        660 |
+| pages\contact                                                                                                                    |          2 |        380 |          1 |          6 |        387 |
+| pages\privacy                                                                                                                    |          2 |        177 |          1 |          4 |        182 |
+| pages\sitemap                                                                                                                    |          2 |        266 |          1 |          4 |        271 |
+| pages\terms-of-use                                                                                                               |          2 |        226 |          1 |          5 |        232 |
+| resources                                                                                                                        |          6 |        128 |          3 |         13 |        144 |
+| resources\first-page                                                                                                             |          6 |        128 |          3 |         13 |        144 |
+| resources\first-page\fonts                                                                                                       |          1 |          9 |          0 |          8 |         17 |
+| resources\first-page\icons                                                                                                       |          5 |        119 |          3 |          5 |        127 |
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                         | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\404.html                                               | HTML       |         75 |          0 |          3 |         78 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\globals\style.css                              | CSS        |        136 |          0 |          1 |        137 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\length\checkbox.js                             | JavaScript |         77 |          0 |         10 |         87 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\length\index.html                              | HTML       |        239 |          0 |          4 |        243 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\length\main.js                                 | JavaScript |        169 |          0 |          2 |        171 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\mass\checkbox.js                               | JavaScript |         49 |          0 |          6 |         55 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\mass\index.html                                | HTML       |        175 |          0 |          4 |        179 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\mass\main.js                                   | JavaScript |         75 |          0 |          2 |         77 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\speed\checkbox.js                              | JavaScript |         28 |          0 |          3 |         31 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\speed\index.html                               | HTML       |        127 |          0 |          4 |        131 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\speed\main.js                                  | JavaScript |         33 |          0 |          2 |         35 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\temperature\checkbox.js                        | JavaScript |         21 |          0 |          2 |         23 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\temperature\index.html                         | HTML       |        110 |          0 |          4 |        114 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\convert\temperature\main.js                            | JavaScript |         23 |          0 |          2 |         25 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\index.html                                             | HTML       |         84 |          0 |          4 |         88 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\first-page\main.js                               | JavaScript |          7 |          0 |          0 |          7 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\first-page\style.css                             | CSS        |         98 |          0 |          1 |         99 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-fonts.css                         | CSS        |         40 |          0 |          1 |         41 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-footer\global-footer.css          | CSS        |        255 |          0 |          1 |        256 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-footer\global-footer.html         | HTML       |        179 |          0 |         10 |        189 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-navbar\global-navbar.css          | CSS        |        243 |          2 |          4 |        249 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-navbar\global-navbar.html         | HTML       |         40 |          0 |          3 |         43 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-scrollbar.css                     | CSS        |         34 |          0 |          1 |         35 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-top-button.css                    | CSS        |         35 |          0 |          1 |         36 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-top-button\global-top-button.css  | CSS        |         35 |          0 |          1 |         36 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\other\globals\global-top-button\global-top-button.html | HTML       |         34 |          0 |          4 |         38 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\404\style.css                                    | CSS        |        101 |          0 |          0 |        101 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\app\index.html                                   | HTML       |        182 |          0 |          3 |        185 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\app\style.css                                    | CSS        |        471 |          3 |          1 |        475 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\contact\index.html                               | HTML       |        100 |          1 |          5 |        106 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\contact\style.css                                | CSS        |        280 |          0 |          1 |        281 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\privacy\index.html                               | HTML       |         89 |          0 |          3 |         92 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\privacy\style.css                                | CSS        |         88 |          1 |          1 |         90 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\sitemap\index.html                               | HTML       |        101 |          0 |          3 |        104 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\sitemap\style.css                                | CSS        |        165 |          1 |          1 |        167 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\terms-of-use\index.html                          | HTML       |        130 |          0 |          3 |        133 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\pages\terms-of-use\style.css                           | CSS        |         96 |          1 |          2 |         99 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\resources\first-page\fonts\README.md                   | Markdown   |          9 |          0 |          8 |         17 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\resources\first-page\icons\gmail.svg                   | XML        |         38 |          1 |          1 |         40 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\resources\first-page\icons\instagram.svg               | XML        |         63 |          1 |          4 |         68 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\resources\first-page\icons\linkedin.svg                | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\resources\first-page\icons\telegram.svg                | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\aConverter\resources\first-page\icons\twitter.svg                 | XML        |         16 |          1 |          0 |         17 |
+| Total                                                                                                                            |            |      4,352 |         12 |        116 |      4,480 |
++----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
