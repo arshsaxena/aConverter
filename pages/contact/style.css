@@ -11,7 +11,7 @@ body {
     color: white;
 }
 .container{
-    background-image: url(/resources/first-page/imgs/using-iphone.jpg);
+    background-image: url(/aConverter/resources/first-page/imgs/using-iphone.jpg);
     background-size: cover;
 }
 .main-head{

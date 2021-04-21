@@ -102,6 +102,25 @@ a .category:hover{
 .app-banner-mobile{
     display: none;
 }
+.footnote{
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: rgb(81, 81, 84);
+    border-width: 1px;
+    font-size: 13.5px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+.footnote a{
+    color: #226eb6;
+}
+.footnote a:hover{
+    text-decoration: underline;
+}
+.footer-text{
+    padding-top: 15px;
+}
 
 @media only screen and (min-width: 513px) and (max-width: 1023px){
     .main-head{
@@ -267,5 +286,15 @@ a .category:hover{
         color: white;
         font-size: 15px;
         letter-spacing: 0;
+    }
+    .footnote{
+        padding-bottom: 10px;
+        border-bottom: solid;
+        border-color: rgb(81, 81, 84);
+        border-width: 1px;
+        font-size: 12px;
+        line-height: 1.33337;
+        font-weight: 400;
+        letter-spacing: -.01em;
     }
 }

@@ -17,7 +17,7 @@ function lengthConverter(source,valNum) {
         inputCentimeters.value = (valNum * 100000);
         inputMillimeters.value = (valNum * 1000000);
         inputMicrometers.value = (valNum * 1000000000);
-        inputNanometers.value = (valNum / 0.000000000001);
+        inputNanometers.value = (valNum * 1000000000000);
         inputMiles.value = (valNum * 0.62137);
         inputYards.value = (valNum * 1093.6);
         inputFeet.value = (valNum * 3280.8);
@@ -43,7 +43,7 @@ function lengthConverter(source,valNum) {
         inputCentimeters.value = (valNum / 1);
         inputMillimeters.value = (valNum * 10);
         inputMicrometers.value = (valNum * 10000);
-        inputNanometers.value = (valNum / 0.0000001);
+        inputNanometers.value = (valNum * 10000000);
         inputMiles.value = (valNum * 0.0000062137);
         inputYards.value = (valNum * 0.010936);    
         inputFeet.value = (valNum * 0.032808);
@@ -56,7 +56,7 @@ function lengthConverter(source,valNum) {
         inputCentimeters.value = (valNum / 10);
         inputMillimeters.value = (valNum / 1);
         inputMicrometers.value = (valNum * 1000);
-        inputNanometers.value = (valNum / 0.000001);
+        inputNanometers.value = (valNum * 1000000);
         inputMiles.value = (valNum * 0.00000062137);
         inputYards.value = (valNum / 914);    
         inputFeet.value = (valNum / 304.8);
@@ -77,10 +77,10 @@ function lengthConverter(source,valNum) {
         inputNauticalMiles.value = (valNum / 1852000000)
     }
     if (source == "inputNanometers") {
-        inputKilometers.value = (valNum * 0.000000000001);
-        inputMeters.value = (valNum * 0.000000001);
-        inputCentimeters.value = (valNum * 0.0000001);
-        inputMillimeters.value = (valNum * 0.000001);
+        inputKilometers.value = (valNum / 1000000000000);
+        inputMeters.value = (valNum * 1000000000);
+        inputCentimeters.value = (valNum / 10000000);
+        inputMillimeters.value = (valNum / 1000000);
         inputMicrometers.value = (valNum * 1000);
         inputNanometers.value = (valNum / 1);
         inputMiles.value = (valNum *  0.00000000000062137);
@@ -94,8 +94,8 @@ function lengthConverter(source,valNum) {
         inputMeters.value = (valNum / 0.00062137);
         inputCentimeters.value = (valNum / 0.0000062137);
         inputMillimeters.value = (valNum / 0.00000062137);
-        inputMicrometers.value = (valNum * 1609000000);
-        inputNanometers.value = (valNum * 0.00000000000062137);
+        inputMicrometers.value = (valNum / 0.000000062137);
+        inputNanometers.value = (valNum / 0.00000000000062137);
         inputMiles.value = (valNum / 1);
         inputYards.value = (valNum * 1760);
         inputFeet.value = (valNum * 5280);
