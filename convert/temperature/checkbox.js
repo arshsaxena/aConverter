@@ -21,3 +21,19 @@ $('#kelvinCheck').change(function(){
         $('#kelvin').fadeOut(250);
     }                   
 });
+
+$('#rankineCheck').change(function(){
+    if (this.checked) {
+        $('#rankine').fadeIn(250);
+    } else {
+        $('#rankine').fadeOut(250);
+    }                   
+});
+
+$('#reaumurCheck').change(function(){
+    if (this.checked) {
+        $('#reaumur').fadeIn(250);
+    } else {
+        $('#reaumur').fadeOut(250);
+    }                   
+});

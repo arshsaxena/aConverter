@@ -1,3 +1,11 @@
+$('#lyCheck').change(function(){
+    if (this.checked) {
+        $('#lightyears').fadeIn(250);
+    } else {
+        $('#lightyears').fadeOut(250);
+    }                   
+});
+
 $('#kmCheck').change(function(){
     if (this.checked) {
         $('#kilometers').fadeIn(250);

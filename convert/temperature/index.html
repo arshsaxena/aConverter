@@ -54,6 +54,14 @@
                     <input type="checkbox" id="kelvinCheck" checked="checked">
                     <label for="kelvinCheck" class="checkbox-label">Kelvin</label>
                 </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="rankineCheck">
+                    <label for="rankineCheck" class="checkbox-label">Rankine</label>
+                </div>
+                <div class="unit-checkbox">
+                    <input type="checkbox" id="reaumurCheck">
+                    <label for="reaumurCheck" class="checkbox-label">Reaumur</label>
+                </div>
             </div>
             <div class="units-container">
                 <div class="unit-field-container celsius" id="celsius" style="display: none;">
@@ -88,6 +96,28 @@
                                 <input class="value-input" id="inputKelvin" class="w3-input w3-border" type="number" min="0" placeholder="K" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
                             </span>
                             <span class="unit-text">K</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit-field-container rankine" id="rankine" style="display: none;">
+                    <div class="unit">
+                        <label class="unit-label">Rankine</label>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input class="value-input" id="inputRankine" class="w3-input w3-border" type="number" min="0" placeholder="°Ra" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">°Ra</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit-field-container reaumur" id="reaumur" style="display: none;">
+                    <div class="unit">
+                        <label class="unit-label">Reaumur</label>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input class="value-input" id="inputReaumur" class="w3-input w3-border" type="number" min="0" placeholder="°Ré" oninput="temperatureConverter(this.id,this.value)" onchange="temperatureConverter(this.id,this.value)">
+                            </span>
+                            <span class="unit-text">°Ré</span>
                         </div>
                     </div>
                 </div>
