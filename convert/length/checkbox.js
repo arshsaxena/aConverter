@@ -22,6 +22,14 @@ $('#mCheck').change(function(){
     }                   
 });
 
+$('#dmCheck').change(function(){
+    if (this.checked) {
+        $('#decimeters').fadeIn(250);
+    } else {
+        $('#decimeters').fadeOut(250);
+    }                   
+});
+
 $('#cmCheck').change(function(){
     if (this.checked) {
         $('#centimeters').fadeIn(250);

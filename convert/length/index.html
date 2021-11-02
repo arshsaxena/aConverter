@@ -59,6 +59,10 @@
                     <label for="mCheck" class="checkbox-label">Meter</label>
                 </div>
                 <div class="unit-checkbox">
+                    <input type="checkbox" id="dmCheck">
+                    <label for="dmCheck" class="checkbox-label">Decimeter</label>
+                </div>
+                <div class="unit-checkbox">
                     <input type="checkbox" id="cmCheck" checked="checked">
                     <label for="cmCheck" class="checkbox-label">Centimeter</label>
                 </div>
@@ -67,11 +71,11 @@
                     <label for="mmCheck" class="checkbox-label">Millimeter</label>
                 </div>
                 <div class="unit-checkbox">
-                    <input type="checkbox" id="μmCheck" checked="checked">
+                    <input type="checkbox" id="μmCheck">
                     <label for="μmCheck" class="checkbox-label">Micrometer</label>
                 </div>
                 <div class="unit-checkbox">
-                    <input type="checkbox" id="nmCheck" checked="checked">
+                    <input type="checkbox" id="nmCheck">
                     <label for="nmCheck" class="checkbox-label">Nanometer</label>
                 </div>
                 <div class="unit-checkbox">
@@ -79,7 +83,7 @@
                     <label for="miCheck" class="checkbox-label">Mile</label>
                 </div>
                 <div class="unit-checkbox">
-                    <input type="checkbox" id="ydCheck" checked="checked">
+                    <input type="checkbox" id="ydCheck">
                     <label for="ydCheck" class="checkbox-label">Yard</label>
                 </div>
                 <div class="unit-checkbox">
@@ -91,7 +95,7 @@
                     <label for="inCheck" class="checkbox-label">Inch</label>
                 </div>
                 <div class="unit-checkbox">
-                    <input type="checkbox" id="nmiCheck" checked="checked">
+                    <input type="checkbox" id="nmiCheck">
                     <label for="nmiCheck" class="checkbox-label">Nautical Mile</label>
                 </div>
             </div>
@@ -129,6 +133,18 @@
                                 <input class="value-input" id="inputMeters" type="number" placeholder="m" oninput="lengthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
                             </span>
                             <span class="unit-text">m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="unit-field-container decimeter" id="decimeters" style="display: none;">
+                    <div class="unit">
+                        <label class="unit-label">Decimeter</label>
+                        <br>
+                        <div class="input-unit-text">
+                            <span class="input">
+                                <input class="value-input" id="inputDecimeters" type="number" placeholder="dm" oninput="lengthConverter(this.id, this.value)" onchange="lengthConverter(this.id, this.value)">
+                            </span>
+                            <span class="unit-text">dm</span>
                         </div>
                     </div>
                 </div>
