@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+	<url>
+		<loc>https://arshsaxena.github.io/aConverter/</loc>
+	</url>
+	<url>
+  		<loc>https://arshsaxena.github.io/aConverter/convert/length/</loc>
+	</url>
+	<url>
+  		<loc>https://arshsaxena.github.io/aConverter/convert/mass/</loc>
+	</url>
+	<url>
+	  <loc>https://arshsaxena.github.io/aConverter/convert/temperature/</loc>
+	</url>
+	<url>
+	  <loc>https://arshsaxena.github.io/aConverter/convert/speed/</loc>
+	</url>
+	<url>
+	  <loc>https://arshsaxena.github.io/aConverter/pages/app/</loc>
+	</url>
+	<url>
+	  <loc>https://arshsaxena.github.io/aConverter/pages/contact/</loc>
+	</url>
+	<url>
+	  <loc>https://arshsaxena.github.io/aConverter/pages/app/privacy-policy/</loc>
+	</url>
+  <url>
+    <loc>https://arshsaxena.github.io/aConverter/pages/privacy/</loc>
+  </url>
+  <url>
+    <loc>https://arshsaxena.github.io/aConverter/pages/terms-of-use/</loc>
+  </url>
+</urlset>
