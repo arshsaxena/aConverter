@@ -81,7 +81,7 @@ input[type = checkbox]{
     font-size: 20px;
 }
 
-@media only screen and (min-width: 513px) and (max-width: 1023px){
+@media screen and (min-width: 513px) and (max-width: 1023px){
     .main-head{
         padding-top: 35px;
     }
@@ -89,7 +89,7 @@ input[type = checkbox]{
         margin: 0px 0px;
     }
 }
-@media only screen and (max-width: 512px){
+@media screen and (max-width: 512px){
     body{
         overflow-x: hidden;
         background-color: black;
@@ -112,7 +112,8 @@ input[type = checkbox]{
     }
     .unit-field-container {
         color: white;
-        padding: 20px 10px;
+        padding: 20px;
+        padding-right: 10px;
         margin: 5px 0px;
         background: #1d1d1f;
         border-radius: 10px;

@@ -122,7 +122,7 @@ a .category:hover{
     padding-top: 15px;
 }
 
-@media only screen and (min-width: 513px) and (max-width: 1023px){
+@media screen and (min-width: 513px) and (max-width: 1023px){
     .main-head{
         padding-top: 45px;
         width: 96%;
@@ -132,7 +132,7 @@ a .category:hover{
         padding-top: 0px;
     }
 }
-@media only screen and (max-device-width: 512px){
+@media screen and (max-width: 512px){
     html{
         background-color: #1d1d1f;
         margin: 0px;

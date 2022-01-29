@@ -92,7 +92,7 @@ a.category-header-link{
 }
 
 /* Mobiles and some tabs */
-@media only screen and (max-device-width: 1110px) and (min-device-width: 824px) {
+@media screen and (max-width: 1110px) and (min-width: 824px) {
     .maindiv{
         padding: 20px;
     }
@@ -100,7 +100,7 @@ a.category-header-link{
         padding-left: 8px;
     }
 }
-@media only screen and (max-device-width: 823px) {
+@media screen and (max-width: 823px) {
     html{
         background-color: #1d1d1f;
         margin: 0px;
