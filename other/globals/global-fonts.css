@@ -1,30 +1,30 @@
 @font-face{
     font-family: "font-regular";
-    src: url('/aConverter/resources/first-page/fonts/font-regular.otf');
+    src: url('/resources/first-page/fonts/font-regular.otf');
 }
 @font-face{
     font-family: "font-bold";
-    src: url('/aConverter/resources/first-page/fonts/font-bold.otf');
+    src: url('/resources/first-page/fonts/font-bold.otf');
 }
 @font-face{
     font-family: "font-italic";
-    src: url('/aConverter/resources/first-page/fonts/font-italic.otf');
+    src: url('/resources/first-page/fonts/font-italic.otf');
 }
 @font-face{
     font-family: "font-condensed";
-    src: url('/aConverter/resources/first-page/fonts/font-compact.otf');
+    src: url('/resources/first-page/fonts/font-compact.otf');
 }
 @font-face{
     font-family: "font-mono";
-    src: url('/aConverter/resources/first-page/fonts/font-mono.otf');
+    src: url('/resources/first-page/fonts/font-mono.otf');
 }
 @font-face{
     font-family: "font-light";
-    src: url('/aConverter/resources/first-page/fonts/font-light.ttf');
+    src: url('/resources/first-page/fonts/font-light.ttf');
 }
 @font-face{
     font-family: "font-hindi";
-    src: url('/aConverter/resources/first-page/fonts/font-hindi.ttf');
+    src: url('/resources/first-page/fonts/font-hindi.ttf');
 }
 
 body, input, ::-webkit-input-placeholder{
