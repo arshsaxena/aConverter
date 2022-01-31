@@ -11,7 +11,7 @@ body {
     color: white;
 }
 .container{
-    background-image: url(/aConverter/resources/first-page/imgs/using-iphone.jpg);
+    background-image: url(/resources/first-page/imgs/using-iphone.jpg);
     background-size: cover;
 }
 .main-head{
@@ -96,34 +96,29 @@ body {
     text-align: left;
 }
 .reset{
-    max-width: 980px;
+    width: 115px;
     text-align: center;
     margin: auto;
     padding-bottom: 25px;
     background-color: transparent !important;
 }
 .reset-button{
+    width: 115px;
     padding: 10px;
     font-family: font-regular;
     font-size: 25px !important;
-    color: #2997ff;
-    background-color: black !important;
+    color: white !important;
+    background-color: #007aff !important;
     border-color: transparent;
-    border-radius: 10px;
-    transition-property: color background-color font-size border-radius;
-    transition-duration: 500ms;
-    transition-timing-function: ease-in-out;
-    -webkit-appearance: none;
+    border-radius: 50px !important;
     cursor: pointer;
 }
 .reset-button:hover{
-    border-radius: 15px;
-    font-size: 30px !important;
     color: white;
     background-color: red !important;
 }
 .submit{
-    max-width: 980px;
+    width: 115px;
     text-align: center;
     margin: auto;
     padding-bottom: 25px;
@@ -133,19 +128,13 @@ body {
     padding: 10px;
     font-family: font-regular;
     font-size: 25px !important;
-    color: #2997ff;
-    background-color: black !important;
+    color: white !important;
+    background-color: #007aff !important;
     border-color: transparent;
-    border-radius: 10px;
-    transition-property: color background-color font-size border-radius;
-    transition-duration: 500ms;
-    transition-timing-function: ease-in-out;
-    -webkit-appearance: none;
+    border-radius: 50px !important;
     cursor: pointer;
 }
 .submit-button:hover{
-    border-radius: 15px;
-    font-size: 30px !important;
     color: white;
     background-color: green !important;
 }
@@ -245,10 +234,10 @@ body {
         padding: 10px;
         font-family: font-regular;
         font-size: 23px !important;
-        color: #2997ff;
-        background-color: black !important;
+        color: white !important;
+        background-color: #007aff !important;
         border-color: transparent;
-        border-radius: 10px;
+        border-radius: 50px !important;
         transition-property: none;
     }
     .reset-button:focus{
@@ -268,10 +257,10 @@ body {
         padding: 10px;
         font-family: font-regular;
         font-size: 23px !important;
-        color: #2997ff;
-        background-color: black !important;
+        color: white !important;
+        background-color: #007aff !important;
         border-color: transparent;
-        border-radius: 10px;
+        border-radius: 50px !important;
         transition-property: none;
     }
     .submit-button:focus{
