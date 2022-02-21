@@ -149,12 +149,12 @@ a .category:hover{
         margin-left: auto;
         margin-right: auto;
         padding: 0px;
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
     .heading{
         font-size: 18px;
-        padding-top: 22px;
+        padding-top: 0px;
     }
     .category-container {
         margin: 10px 0px 20px;
