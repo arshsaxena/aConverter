@@ -88,16 +88,12 @@ a.category-header-link{
 }
 #footer-part {
     padding-top: 2.5px;
-    padding-left: 5px;
 }
 
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 1110px) and (min-width: 824px) {
     .maindiv{
         padding: 20px;
-    }
-    #footer-part {
-        padding-left: 8px;
     }
 }
 @media screen and (max-width: 823px) {
@@ -114,7 +110,7 @@ a.category-header-link{
     }
     .maindiv{
         width: 92%;
-        padding-top: 50px !important;
+        padding-top: 0px !important;
     }
     .maindiv a h1{
         font-size: 20px;
@@ -162,6 +158,6 @@ a.category-header-link{
         line-height: 30px;
     }
     #footer-part {
-        padding-left: 8px;
+        padding-left: 0px;
     }
 }
